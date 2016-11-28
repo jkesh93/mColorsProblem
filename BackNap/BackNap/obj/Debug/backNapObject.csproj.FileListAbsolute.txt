@@ -2,3 +2,4 @@ C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\BackNap\B
 C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\BackNap\BackNap\bin\Debug\BackNap.pdb
 C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\BackNap\BackNap\obj\Debug\BackNap.dll
 C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\BackNap\BackNap\obj\Debug\BackNap.pdb
+C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\BackNap\BackNap\obj\Debug\backNapObject.csprojResolveAssemblyReference.cache
