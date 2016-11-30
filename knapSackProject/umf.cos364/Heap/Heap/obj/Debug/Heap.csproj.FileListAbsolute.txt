@@ -1,8 +1,0 @@
-c:\users\jay\documents\visual studio 2015\Projects\Heap\Heap\bin\Debug\Heap.dll
-c:\users\jay\documents\visual studio 2015\Projects\Heap\Heap\bin\Debug\Heap.pdb
-c:\users\jay\documents\visual studio 2015\Projects\Heap\Heap\obj\Debug\Heap.dll
-c:\users\jay\documents\visual studio 2015\Projects\Heap\Heap\obj\Debug\Heap.pdb
-C:\Users\Jay\Documents\Visual Studio 2015\Projects\umf.cos364\Heap\Heap\bin\Debug\Heap.dll
-C:\Users\Jay\Documents\Visual Studio 2015\Projects\umf.cos364\Heap\Heap\bin\Debug\Heap.pdb
-C:\Users\Jay\Documents\Visual Studio 2015\Projects\umf.cos364\Heap\Heap\obj\Debug\Heap.dll
-C:\Users\Jay\Documents\Visual Studio 2015\Projects\umf.cos364\Heap\Heap\obj\Debug\Heap.pdb

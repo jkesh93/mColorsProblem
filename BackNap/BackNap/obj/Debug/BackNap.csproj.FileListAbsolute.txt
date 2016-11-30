@@ -1,5 +1,0 @@
-C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\BackNap\BackNap\bin\Debug\BackNap.dll
-C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\BackNap\BackNap\bin\Debug\BackNap.pdb
-C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\BackNap\BackNap\obj\Debug\BackNap.csprojResolveAssemblyReference.cache
-C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\BackNap\BackNap\obj\Debug\BackNap.dll
-C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\BackNap\BackNap\obj\Debug\BackNap.pdb

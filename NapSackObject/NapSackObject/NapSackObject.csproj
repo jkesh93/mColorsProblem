@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{67CDB29C-D48F-466C-8B9A-0270555C0AD3}</ProjectGuid>
+    <ProjectGuid>{2D683081-FF3A-4C2C-B309-409D12889ADC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>umf.cos364</RootNamespace>
-    <AssemblyName>umf.cos364</AssemblyName>
+    <RootNamespace>NapSackObject</RootNamespace>
+    <AssemblyName>NapSackObject</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BackNap.cs" />
+    <Compile Include="NapSack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
