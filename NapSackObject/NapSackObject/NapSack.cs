@@ -79,6 +79,8 @@ namespace NapSackObject
             {
                 loc[index + 1] = 0;
             }
+
+            // visiting node system;
             Console.WriteLine("\nVisiting Node: " + (index + 1) + ", " + (loc[index+1] + 1) + "\nProfit: " + profit + "\nWeight: " + weight);
 
 
