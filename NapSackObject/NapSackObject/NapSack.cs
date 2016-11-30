@@ -19,6 +19,7 @@ namespace NapSackObject
         int W;
         int index = 0;
         int n;
+        int[] loc = new int[5]; // used to identify which "side" of the node we're on;
 
         // arrays;
         int[] profits;
@@ -73,6 +74,14 @@ namespace NapSackObject
 
         public void knapSack(int index, int profit, int weight)
         {
+            //Let us know which Node we are visiting;
+            if(index < 0)
+            {
+                loc[index + 1] = 0;
+            }
+            Console.WriteLine("\nVisiting Node: " + (index + 1) + ", " + (loc[index+1] + 1) + "\nProfit: " + profit + "\nWeight: " + weight);
+
+
             // Update our variables;
             this.profit = profit;
             this.weight = weight;
@@ -104,6 +113,7 @@ namespace NapSackObject
             if(weight >= W)
             {
                 // If our weight exceeds W then we know this to be false;
+                loc[index + 1] += 1;
                 return false;
             }
             else
@@ -111,7 +121,7 @@ namespace NapSackObject
                 j = index + 1;
                 bound = profit;
                 totWeight = weight;
-                while( j < n && (totWeight + weights[j]) <= W)
+                while( j < (n-1) && (totWeight + weights[j]) <= W)
                 {
                     // while our 'look-ahead' j is less than n (input size) and our total weigh + the weight of the next item is less than our weightCap;
                     totWeight = totWeight + weights[j];
@@ -122,9 +132,20 @@ namespace NapSackObject
                 if(k < n)
                 {
                     // if our k is within our item count, we add it to the bound;
-                    bound = (bound + (W - totWeight)) * (profits[k] / weights[k]);
+                    bound = bound + (W - totWeight) * (profits[k] / weights[k]);
                 }
+                Console.WriteLine("Bound: " + bound);
 
+                // Used to identify which side of the tree we're on.
+                if(bound > maxProfit)
+                {
+                    loc[index+1] += 1;
+                }
+                else
+                {
+                    loc[index + 1] += 1;
+                }
+                
                 return bound > maxProfit; // if our bound exceeds what we're currently making -- we know this node is promising;
             }
         }
