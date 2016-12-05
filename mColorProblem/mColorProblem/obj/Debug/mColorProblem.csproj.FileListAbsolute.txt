@@ -1,0 +1,8 @@
+C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\mColorProblem\mColorProblem\bin\Debug\mColorProblem.exe.config
+C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\mColorProblem\mColorProblem\bin\Debug\mColorProblem.exe
+C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\mColorProblem\mColorProblem\bin\Debug\mColorProblem.pdb
+C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\mColorProblem\mColorProblem\obj\Debug\mColorProblem.exe
+C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\mColorProblem\mColorProblem\obj\Debug\mColorProblem.pdb
+C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\mColorProblem\mColorProblem\bin\Debug\colorAlgo.dll
+C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\mColorProblem\mColorProblem\bin\Debug\colorAlgo.pdb
+C:\Users\Jay\Documents\Academia\Computer Science\GitHub\Projects\CS364\mColorProblem\mColorProblem\obj\Debug\mColorProblem.csprojResolveAssemblyReference.cache
