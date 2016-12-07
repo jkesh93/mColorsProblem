@@ -15,7 +15,7 @@ namespace colorAlgo
         int color = 0;
         int n;
         int[,] dataW;
-        int m = 3;
+        int m = 4;
         List<int[]> solutionArray;
 
 
@@ -93,7 +93,7 @@ namespace colorAlgo
         public void viewSolutions()
         {
             Console.WriteLine("Solutions");
-            for(int i = 0; i < solutionArray[i].Length; i++)
+            for(int i = 0; i < solutionArray.Count; i++)
             {
                 Console.Write("Solution " + (i+1) + "::");
                 for(int j = 0; j < solutionArray[i].Length; j++)

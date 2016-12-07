@@ -10,7 +10,7 @@ namespace mColorProblem
     class Program
     {
         // get the data;
-        static String[] linesDataSet = System.IO.File.ReadAllLines("nodes2.txt");
+        static String[] linesDataSet = System.IO.File.ReadAllLines("nodes.txt");
         static int inputSize = 0;
         static int[] dataSetInt;
         static int[] lineNArray;
@@ -22,6 +22,7 @@ namespace mColorProblem
         static void Main(string[] args)
         {
             stepOne();
+            viewColorArray();
             stepTwo();
             colorObject.viewSolutions();
         }
