@@ -93,7 +93,7 @@ namespace colorAlgo
         public void viewSolutions()
         {
             Console.WriteLine("Solutions");
-            for(int i = 0; i < solutionArray.Count; i++)
+            for(int i = 0; i < solutionArray.Count && i < 20; i++)
             {
                 Console.Write("Solution " + (i+1) + "::");
                 for(int j = 0; j < solutionArray[i].Length; j++)
